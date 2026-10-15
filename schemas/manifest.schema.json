@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://ai-tools-directory.local/schemas/manifest.schema.json",
+  "title": "DatasetManifest",
+  "description": "Schema definition for dataset release manifest",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "datasetVersion",
+    "generatedAt",
+    "totalTools",
+    "totalCategories",
+    "totalCollections",
+    "minAppVersion",
+    "files"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "datasetVersion": {
+      "type": "string"
+    },
+    "generatedAt": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "totalTools": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "totalCategories": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "totalCollections": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "minAppVersion": {
+      "type": "string"
+    },
+    "files": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["path", "sha256", "bytes"],
+        "properties": {
+          "path": { "type": "string" },
+          "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+          "bytes": { "type": "integer", "minimum": 0 }
+        }
+      }
+    }
+  }
+}
