@@ -46,19 +46,19 @@ def build_public_dataset():
     # 1. Copy categories.json
     with open(os.path.join(DATA_DIR, "categories.json"), "r", encoding="utf-8") as f:
         categories = json.load(f)
-    with open(os.path.join(PUBLIC_DATA_DIR, "categories.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(PUBLIC_DATA_DIR, "categories.json"), "w", encoding="utf-8", newline="\n") as f:
         json.dump(categories, f, indent=2, ensure_ascii=False)
 
     # 2. Copy tags.json
     with open(os.path.join(DATA_DIR, "tags.json"), "r", encoding="utf-8") as f:
         tags = json.load(f)
-    with open(os.path.join(PUBLIC_DATA_DIR, "tags.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(PUBLIC_DATA_DIR, "tags.json"), "w", encoding="utf-8", newline="\n") as f:
         json.dump(tags, f, indent=2, ensure_ascii=False)
 
     # 3. Copy collections.json
     with open(os.path.join(DATA_DIR, "collections.json"), "r", encoding="utf-8") as f:
         collections = json.load(f)
-    with open(os.path.join(PUBLIC_DATA_DIR, "collections.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(PUBLIC_DATA_DIR, "collections.json"), "w", encoding="utf-8", newline="\n") as f:
         json.dump(collections, f, indent=2, ensure_ascii=False)
 
     # 4. Process tools
@@ -80,7 +80,7 @@ def build_public_dataset():
 
         # Write per-tool public file
         tool_dest = os.path.join(PUBLIC_DATA_DIR, "tools", f"{tool['slug']}.json")
-        with open(tool_dest, "w", encoding="utf-8") as out_f:
+        with open(tool_dest, "w", encoding="utf-8", newline="\n") as out_f:
             json.dump(tool, out_f, indent=2, ensure_ascii=False)
 
         # Add to compact list
@@ -126,16 +126,16 @@ def build_public_dataset():
                 category_tool_map[cat].append(tool["id"])
 
     # Write tools/index.json
-    with open(os.path.join(PUBLIC_DATA_DIR, "tools", "index.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(PUBLIC_DATA_DIR, "tools", "index.json"), "w", encoding="utf-8", newline="\n") as f:
         json.dump(compact_tools, f, indent=2, ensure_ascii=False)
 
     # Write search-index.json
-    with open(os.path.join(PUBLIC_DATA_DIR, "search-index.json"), "w", encoding="utf-8") as f:
+    with open(os.path.join(PUBLIC_DATA_DIR, "search-index.json"), "w", encoding="utf-8", newline="\n") as f:
         json.dump(search_index, f, indent=2, ensure_ascii=False)
 
     # Write per-category index files
     for cat_id, t_ids in category_tool_map.items():
-        with open(os.path.join(PUBLIC_DATA_DIR, "tools", "by-category", f"{cat_id}.json"), "w", encoding="utf-8") as f:
+        with open(os.path.join(PUBLIC_DATA_DIR, "tools", "by-category", f"{cat_id}.json"), "w", encoding="utf-8", newline="\n") as f:
             json.dump({"categoryId": cat_id, "toolIds": t_ids, "count": len(t_ids)}, f, indent=2)
 
     # Compute manifest file hashes
@@ -187,7 +187,7 @@ def build_public_dataset():
         "files": file_manifest,
     }
 
-    with open(manifest_path, "w", encoding="utf-8") as f:
+    with open(manifest_path, "w", encoding="utf-8", newline="\n") as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)
 
     print(f"[SUCCESS] Public dataset generated at {PUBLIC_DATA_DIR}")

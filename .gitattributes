@@ -1,0 +1,5 @@
+# Enforce LF line endings for all JSON and data files across Windows, macOS, and Linux
+* text=auto eol=lf
+*.json text eol=lf
+*.py text eol=lf
+*.md text eol=lf
