@@ -1,0 +1,33 @@
+name: Database CI & Integrity Verification
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  workflow_dispatch:
+
+jobs:
+  validate-and-test:
+    name: Validate Dataset & Run Tests
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Validate JSON Data & Referential Integrity
+        run: |
+          python scripts/validate.py
+
+      - name: Run Database Unit Tests
+        run: |
+          python -m unittest discover tests
+
+      - name: Build Indexes & Verify Manifest Generation
+        run: |
+          python scripts/build_indexes.py

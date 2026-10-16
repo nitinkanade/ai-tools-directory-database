@@ -28,6 +28,15 @@ def compute_sha256(filepath):
 
 def build_public_dataset():
     print("--> Preparing public/data directory...")
+    old_manifest = None
+    manifest_path = os.path.join(PUBLIC_DATA_DIR, "manifest.json")
+    if os.path.exists(manifest_path):
+        try:
+            with open(manifest_path, "r", encoding="utf-8") as f:
+                old_manifest = json.load(f)
+        except Exception:
+            old_manifest = None
+
     if os.path.exists(PUBLIC_DATA_DIR):
         shutil.rmtree(PUBLIC_DATA_DIR)
     os.makedirs(PUBLIC_DATA_DIR, exist_ok=True)
@@ -130,9 +139,6 @@ def build_public_dataset():
             json.dump({"categoryId": cat_id, "toolIds": t_ids, "count": len(t_ids)}, f, indent=2)
 
     # Compute manifest file hashes
-    now_utc = datetime.datetime.now(datetime.timezone.utc)
-    dataset_version = f"{now_utc.strftime('%Y.%m.%d')}-v1"
-
     file_manifest = {}
     for root, _, files in os.walk(PUBLIC_DATA_DIR):
         for fname in files:
@@ -146,10 +152,34 @@ def build_public_dataset():
                 "bytes": os.path.getsize(full_path),
             }
 
+    # Check if file contents changed by comparing file_manifest hashes
+    has_changed = True
+    if old_manifest and "files" in old_manifest:
+        old_files = old_manifest["files"]
+        if len(old_files) == len(file_manifest):
+            has_changed = any(
+                k not in old_files or old_files[k].get("sha256") != v["sha256"]
+                for k, v in file_manifest.items()
+            )
+
+    now_utc = datetime.datetime.now(datetime.timezone.utc)
+    composite_hash = hashlib.sha256(
+        "".join(f"{k}:{file_manifest[k]['sha256']}" for k in sorted(file_manifest)).encode("utf-8")
+    ).hexdigest()
+
+    if not has_changed and old_manifest:
+        # Idempotent: Preserve timestamp and version to avoid unnecessary diffs
+        dataset_version = old_manifest.get("datasetVersion", f"{now_utc.strftime('%Y.%m.%d')}-v1")
+        generated_at = old_manifest.get("generatedAt", now_utc.isoformat())
+    else:
+        # Intraday version with unique content fingerprint
+        dataset_version = f"{now_utc.strftime('%Y.%m.%d')}-{composite_hash[:8]}"
+        generated_at = now_utc.isoformat()
+
     manifest = {
         "schemaVersion": SCHEMA_VERSION,
         "datasetVersion": dataset_version,
-        "generatedAt": now_utc.isoformat(),
+        "generatedAt": generated_at,
         "totalTools": published_count,
         "totalCategories": len(categories),
         "totalCollections": len(collections),
@@ -157,7 +187,6 @@ def build_public_dataset():
         "files": file_manifest,
     }
 
-    manifest_path = os.path.join(PUBLIC_DATA_DIR, "manifest.json")
     with open(manifest_path, "w", encoding="utf-8") as f:
         json.dump(manifest, f, indent=2, ensure_ascii=False)
 
