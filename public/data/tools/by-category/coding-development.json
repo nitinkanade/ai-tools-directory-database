@@ -8,6 +8,7 @@
     "crewai",
     "cursor",
     "deepseek",
+    "devin",
     "github-copilot",
     "hugging-face",
     "langchain",
@@ -16,5 +17,5 @@
     "v0",
     "vllm"
   ],
-  "count": 14
+  "count": 15
 }

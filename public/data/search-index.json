@@ -392,6 +392,38 @@
     "isFeatured": true
   },
   {
+    "id": "devin",
+    "name": "Devin",
+    "slug": "devin",
+    "shortDescription": "Autonomous AI software engineer by Cognition AI that plans, writes, tests, and deploys software in cloud virtual machines.",
+    "categories": [
+      "coding-development"
+    ],
+    "tags": [
+      "agent",
+      "autonomous",
+      "cli",
+      "coding",
+      "developer-tools"
+    ],
+    "features": [
+      "Autonomous end-to-end task execution in isolated VM sandboxes",
+      "Multi-model routing combining SWE-2, Claude, GPT, and Gemini models",
+      "Interactive browser testing with session video recording and playback",
+      "Integrations with GitHub, GitLab, Slack, Linear, and PagerDuty",
+      "Desktop app, CLI, and cloud-hosted web interface support"
+    ],
+    "pricingModel": "freemium",
+    "platforms": [
+      "web",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "isOpenSource": false,
+    "isFeatured": false
+  },
+  {
     "id": "dify",
     "name": "Dify.ai",
     "slug": "dify",
