@@ -1,0 +1,16 @@
+{
+  "categoryId": "agents-workflows",
+  "toolIds": [
+    "claude-code",
+    "crewai",
+    "cursor",
+    "dify",
+    "intercom-fin",
+    "langchain",
+    "make",
+    "n8n",
+    "openhands",
+    "zapier-central"
+  ],
+  "count": 10
+}
