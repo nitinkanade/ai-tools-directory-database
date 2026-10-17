@@ -477,6 +477,44 @@
     "updatedAt": "2026-10-15"
   },
   {
+    "id": "devin",
+    "name": "Devin",
+    "slug": "devin",
+    "shortDescription": "Autonomous AI software engineer by Cognition AI that plans, writes, tests, and deploys software in cloud virtual machines.",
+    "categories": [
+      "coding-development"
+    ],
+    "subcategories": [
+      "terminal-agents",
+      "code-assistants"
+    ],
+    "tags": [
+      "agent",
+      "autonomous",
+      "cli",
+      "coding",
+      "developer-tools"
+    ],
+    "websiteUrl": "https://devin.ai",
+    "pricing": {
+      "model": "freemium",
+      "details": "Free tier available; Pro plan starting at $20/month; Max plan at $200/month; Team plan at $80/month plus $40/user/month.",
+      "lastVerifiedAt": "2026-10-17"
+    },
+    "platforms": [
+      "web",
+      "macos",
+      "windows",
+      "linux"
+    ],
+    "isOpenSource": false,
+    "isFeatured": false,
+    "status": "published",
+    "lastVerifiedAt": "2026-10-17",
+    "createdAt": "2026-10-17",
+    "updatedAt": "2026-10-17"
+  },
+  {
     "id": "dify",
     "name": "Dify.ai",
     "slug": "dify",

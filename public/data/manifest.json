@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
-  "datasetVersion": "2026.10.17-6acd0ad6",
-  "generatedAt": "2026-10-17T08:09:22.322439+00:00",
-  "totalTools": 42,
+  "datasetVersion": "2026.10.17-6a5c0dd5",
+  "generatedAt": "2026-10-17T08:51:57.944561+00:00",
+  "totalTools": 43,
   "totalCategories": 20,
   "totalCollections": 6,
   "minAppVersion": "1.0.0",
@@ -19,8 +19,8 @@
     },
     "search-index.json": {
       "path": "/data/search-index.json",
-      "sha256": "adc256732f2a8b2793aa013de939f9748dea5e554da60777ab7a01d5f1910c4e",
-      "bytes": 37797
+      "sha256": "04ce9d05bea63c03bfb37a5b6e55f57380d8f94862968f92204349e3e571e17d",
+      "bytes": 38737
     },
     "tags.json": {
       "path": "/data/tags.json",
@@ -87,6 +87,11 @@
       "sha256": "f7dda1bb01285b5092a0476b112e8283f09b286a3c752cd507a2940f533d65b3",
       "bytes": 2567
     },
+    "tools/devin.json": {
+      "path": "/data/tools/devin.json",
+      "sha256": "35f55bea0772c1c87b4f243d5a62387aad236c141c8f2372c6cf20bfa74e0e43",
+      "bytes": 2770
+    },
     "tools/dify.json": {
       "path": "/data/tools/dify.json",
       "sha256": "380fd56cda138fcb50c388b785fc77409185d82197245da4dee97f107c7fd3e3",
@@ -124,8 +129,8 @@
     },
     "tools/index.json": {
       "path": "/data/tools/index.json",
-      "sha256": "6b341d1bf494d2c63b79923d424cc001e3498f6c6531d198e67709b5584de37c",
-      "bytes": 43412
+      "sha256": "81d4dafe421af41f0c98867d7bd2163719df44e51969f612b199d1af45f0bb47",
+      "bytes": 44402
     },
     "tools/intercom-fin.json": {
       "path": "/data/tools/intercom-fin.json",
@@ -264,8 +269,8 @@
     },
     "tools/by-category/coding-development.json": {
       "path": "/data/tools/by-category/coding-development.json",
-      "sha256": "dd6e75f465f8a58f68ffce4040e1f99f195b91b9e16d4fa54d98e91f460de411",
-      "bytes": 294
+      "sha256": "5df840a603a4f38c0cbf4d2f330e7215a86d6131acf0ae30fddf7ece961a15bf",
+      "bytes": 307
     },
     "tools/by-category/customer-support.json": {
       "path": "/data/tools/by-category/customer-support.json",
