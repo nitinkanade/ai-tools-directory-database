@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
-  "datasetVersion": "2026.10.17-82639123",
-  "generatedAt": "2026-10-17T06:09:05.516187+00:00",
-  "totalTools": 41,
+  "datasetVersion": "2026.10.17-6acd0ad6",
+  "generatedAt": "2026-10-17T08:09:22.322439+00:00",
+  "totalTools": 42,
   "totalCategories": 20,
   "totalCollections": 6,
   "minAppVersion": "1.0.0",
@@ -19,8 +19,8 @@
     },
     "search-index.json": {
       "path": "/data/search-index.json",
-      "sha256": "deb1e83885221603a799d3805ba08213efb473035142fc48daa06a8df3ade342",
-      "bytes": 36644
+      "sha256": "adc256732f2a8b2793aa013de939f9748dea5e554da60777ab7a01d5f1910c4e",
+      "bytes": 37797
     },
     "tags.json": {
       "path": "/data/tags.json",
@@ -124,8 +124,8 @@
     },
     "tools/index.json": {
       "path": "/data/tools/index.json",
-      "sha256": "01a36860d186d8e291d520a2dacc4e304097a4152f3bdd05a0f116421e38646b",
-      "bytes": 42264
+      "sha256": "6b341d1bf494d2c63b79923d424cc001e3498f6c6531d198e67709b5584de37c",
+      "bytes": 43412
     },
     "tools/intercom-fin.json": {
       "path": "/data/tools/intercom-fin.json",
@@ -181,6 +181,11 @@
       "path": "/data/tools/ollama.json",
       "sha256": "2ec0a3cb529d813b3f2637278c3e45e7252c6c90135e3c7fc0518a11edbd16fe",
       "bytes": 2691
+    },
+    "tools/openhands.json": {
+      "path": "/data/tools/openhands.json",
+      "sha256": "6fc0f6b52a67b754a05f83cb61925ef9d1b083c128a4fbae3565ba769d79764f",
+      "bytes": 2993
     },
     "tools/perplexity.json": {
       "path": "/data/tools/perplexity.json",
@@ -239,8 +244,8 @@
     },
     "tools/by-category/agents-workflows.json": {
       "path": "/data/tools/by-category/agents-workflows.json",
-      "sha256": "edfda6c3165095dce744e674753c6ea3964e9fb624ebd0569c48c12520151e7f",
-      "bytes": 212
+      "sha256": "a17a265daa5f7ef758101332db87daa0b974dc0f07aff020265559fdabc2e3b5",
+      "bytes": 230
     },
     "tools/by-category/audio-music.json": {
       "path": "/data/tools/by-category/audio-music.json",
@@ -259,8 +264,8 @@
     },
     "tools/by-category/coding-development.json": {
       "path": "/data/tools/by-category/coding-development.json",
-      "sha256": "b451c86e17e99c629719927ae91c1787a5fcd037956b3b269d9ce54aeba2cf51",
-      "bytes": 277
+      "sha256": "dd6e75f465f8a58f68ffce4040e1f99f195b91b9e16d4fa54d98e91f460de411",
+      "bytes": 294
     },
     "tools/by-category/customer-support.json": {
       "path": "/data/tools/by-category/customer-support.json",
