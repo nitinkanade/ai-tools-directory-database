@@ -140,8 +140,8 @@ def build_public_dataset():
 
     # Compute manifest file hashes
     file_manifest = {}
-    for root, _, files in os.walk(PUBLIC_DATA_DIR):
-        for fname in files:
+    for root, _, files in sorted(os.walk(PUBLIC_DATA_DIR)):
+        for fname in sorted(files):
             full_path = os.path.join(root, fname)
             rel_path = os.path.relpath(full_path, PUBLIC_DATA_DIR).replace("\\", "/")
             if rel_path == "manifest.json":
