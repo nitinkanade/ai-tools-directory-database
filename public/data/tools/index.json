@@ -1168,6 +1168,50 @@
     "updatedAt": "2026-10-15"
   },
   {
+    "id": "openhands",
+    "name": "OpenHands",
+    "slug": "openhands",
+    "shortDescription": "Open-source AI software engineering agent platform that executes code, runs terminal commands, and edits repositories autonomously.",
+    "categories": [
+      "coding-development",
+      "agents-workflows"
+    ],
+    "subcategories": [
+      "terminal-agents",
+      "agent-frameworks"
+    ],
+    "tags": [
+      "agent",
+      "agents",
+      "autonomous",
+      "cli",
+      "coding",
+      "developer-tools",
+      "open-source",
+      "python",
+      "terminal",
+      "workflow"
+    ],
+    "websiteUrl": "https://openhands.dev",
+    "pricing": {
+      "model": "open-source",
+      "details": "Free and open-source software under the MIT license; OpenHands Cloud offers hosted agent infrastructure and enterprise management tier.",
+      "lastVerifiedAt": "2026-10-17"
+    },
+    "platforms": [
+      "web",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "isOpenSource": true,
+    "isFeatured": true,
+    "status": "published",
+    "lastVerifiedAt": "2026-10-17",
+    "createdAt": "2026-10-17",
+    "updatedAt": "2026-10-17"
+  },
+  {
     "id": "perplexity",
     "name": "Perplexity",
     "slug": "perplexity",

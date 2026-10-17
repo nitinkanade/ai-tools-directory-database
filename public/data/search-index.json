@@ -957,6 +957,43 @@
     "isFeatured": true
   },
   {
+    "id": "openhands",
+    "name": "OpenHands",
+    "slug": "openhands",
+    "shortDescription": "Open-source AI software engineering agent platform that executes code, runs terminal commands, and edits repositories autonomously.",
+    "categories": [
+      "coding-development",
+      "agents-workflows"
+    ],
+    "tags": [
+      "agent",
+      "agents",
+      "autonomous",
+      "cli",
+      "coding",
+      "developer-tools",
+      "open-source",
+      "python",
+      "terminal",
+      "workflow"
+    ],
+    "features": [
+      "Secure Docker-sandboxed execution environment for isolated code modification and bash execution",
+      "Autonomous software engineering agents capable of reproducing bugs, running unit tests, and creating pull requests",
+      "Web UI and CLI interfaces for interacting with agent workflows and inspecting execution logs",
+      "Multi-LLM integration supporting Anthropic Claude, OpenAI, Ollama local models, and custom endpoints"
+    ],
+    "pricingModel": "open-source",
+    "platforms": [
+      "web",
+      "linux",
+      "macos",
+      "windows"
+    ],
+    "isOpenSource": true,
+    "isFeatured": true
+  },
+  {
     "id": "perplexity",
     "name": "Perplexity",
     "slug": "perplexity",
