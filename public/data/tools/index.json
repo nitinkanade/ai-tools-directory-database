@@ -976,6 +976,45 @@
     "updatedAt": "2026-10-15"
   },
   {
+    "id": "lovable",
+    "name": "Lovable",
+    "slug": "lovable",
+    "shortDescription": "GPT Engineer powered full-stack web development agent that creates interactive web applications from prompt descriptions.",
+    "categories": [
+      "coding-development",
+      "design-ui-ux"
+    ],
+    "subcategories": [
+      "code-assistants",
+      "ui-generation"
+    ],
+    "tags": [
+      "agent",
+      "coding",
+      "developer-tools",
+      "frontend",
+      "prototyping",
+      "react",
+      "typescript",
+      "ui-ux"
+    ],
+    "websiteUrl": "https://lovable.dev",
+    "pricing": {
+      "model": "freemium",
+      "details": "Free tier available with daily message allocations; paid monthly plans offer expanded message limits, private projects, and GitHub repository integration.",
+      "lastVerifiedAt": "2026-10-21"
+    },
+    "platforms": [
+      "web"
+    ],
+    "isOpenSource": false,
+    "isFeatured": true,
+    "status": "published",
+    "lastVerifiedAt": "2026-10-21",
+    "createdAt": "2026-10-21",
+    "updatedAt": "2026-10-21"
+  },
+  {
     "id": "luma-dream-machine",
     "name": "Luma Dream Machine",
     "slug": "luma-dream-machine",
