@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
-  "datasetVersion": "2026.10.17-6a5c0dd5",
-  "generatedAt": "2026-10-17T08:51:57.944561+00:00",
-  "totalTools": 43,
+  "datasetVersion": "2026.10.21-f5bc9a50",
+  "generatedAt": "2026-10-21T17:23:13.635853+00:00",
+  "totalTools": 44,
   "totalCategories": 20,
   "totalCollections": 6,
   "minAppVersion": "1.0.0",
@@ -19,8 +19,8 @@
     },
     "search-index.json": {
       "path": "/data/search-index.json",
-      "sha256": "04ce9d05bea63c03bfb37a5b6e55f57380d8f94862968f92204349e3e571e17d",
-      "bytes": 38737
+      "sha256": "365393abbd731564dc8de3fca48d7dbf78a78229a016023ebe85f8fc29a3f633",
+      "bytes": 39663
     },
     "tags.json": {
       "path": "/data/tags.json",
@@ -129,8 +129,8 @@
     },
     "tools/index.json": {
       "path": "/data/tools/index.json",
-      "sha256": "81d4dafe421af41f0c98867d7bd2163719df44e51969f612b199d1af45f0bb47",
-      "bytes": 44402
+      "sha256": "7ca3a0542f0f6bcac98430c7c5e9bde2e3d9bcf266162ff1295437e74da5e97c",
+      "bytes": 45462
     },
     "tools/intercom-fin.json": {
       "path": "/data/tools/intercom-fin.json",
@@ -156,6 +156,11 @@
       "path": "/data/tools/langchain.json",
       "sha256": "1d08765eebdfc45c82ce216e6c39b6887a37f079f12f29a4238d98a1104e4c4b",
       "bytes": 2693
+    },
+    "tools/lovable.json": {
+      "path": "/data/tools/lovable.json",
+      "sha256": "d3eabec95fdb2a02ea658b3c0dcf92dfb37e08d91f2a1923c42e4b24cde361a6",
+      "bytes": 2610
     },
     "tools/luma-dream-machine.json": {
       "path": "/data/tools/luma-dream-machine.json",
@@ -269,8 +274,8 @@
     },
     "tools/by-category/coding-development.json": {
       "path": "/data/tools/by-category/coding-development.json",
-      "sha256": "5df840a603a4f38c0cbf4d2f330e7215a86d6131acf0ae30fddf7ece961a15bf",
-      "bytes": 307
+      "sha256": "e08199f7719012937185bc749c955d1c954f0e51404f30308d3454ddf622d060",
+      "bytes": 322
     },
     "tools/by-category/customer-support.json": {
       "path": "/data/tools/by-category/customer-support.json",
@@ -284,8 +289,8 @@
     },
     "tools/by-category/design-ui-ux.json": {
       "path": "/data/tools/by-category/design-ui-ux.json",
-      "sha256": "9bfae760df27d75a5b9706cfce1d15473beb68f357b2dd722c1d5cd4e9bb8bde",
-      "bytes": 166
+      "sha256": "c43b1dc47a0600d794db28cc82956712e3f2031b20f62b723ea99449e8f88a61",
+      "bytes": 181
     },
     "tools/by-category/education-learning.json": {
       "path": "/data/tools/by-category/education-learning.json",

@@ -801,6 +801,38 @@
     "isFeatured": true
   },
   {
+    "id": "lovable",
+    "name": "Lovable",
+    "slug": "lovable",
+    "shortDescription": "GPT Engineer powered full-stack web development agent that creates interactive web applications from prompt descriptions.",
+    "categories": [
+      "coding-development",
+      "design-ui-ux"
+    ],
+    "tags": [
+      "agent",
+      "coding",
+      "developer-tools",
+      "frontend",
+      "prototyping",
+      "react",
+      "typescript",
+      "ui-ux"
+    ],
+    "features": [
+      "Natural language to full-stack web application scaffold and generation",
+      "Integrated live visual sandbox preview with real-time hot reloading",
+      "Automated backend integration supporting Supabase database tables and auth",
+      "Seamless GitHub repository export and bi-directional code syncing"
+    ],
+    "pricingModel": "freemium",
+    "platforms": [
+      "web"
+    ],
+    "isOpenSource": false,
+    "isFeatured": true
+  },
+  {
     "id": "luma-dream-machine",
     "name": "Luma Dream Machine",
     "slug": "luma-dream-machine",

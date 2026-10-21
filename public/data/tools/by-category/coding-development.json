@@ -12,10 +12,11 @@
     "github-copilot",
     "hugging-face",
     "langchain",
+    "lovable",
     "ollama",
     "openhands",
     "v0",
     "vllm"
   ],
-  "count": 15
+  "count": 16
 }
