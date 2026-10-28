@@ -1663,6 +1663,45 @@
     "updatedAt": "2026-10-15"
   },
   {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "slug": "windsurf",
+    "shortDescription": "AI-first agentic IDE developed by Codeium with deep codebase context, Cascade agent, and multi-file editing capabilities.",
+    "categories": [
+      "coding-development",
+      "agents-workflows"
+    ],
+    "subcategories": [
+      "code-assistants",
+      "terminal-agents"
+    ],
+    "tags": [
+      "coding",
+      "ide",
+      "agent",
+      "autocomplete",
+      "developer-tools",
+      "vscode"
+    ],
+    "websiteUrl": "https://codeium.com/windsurf",
+    "pricing": {
+      "model": "freemium",
+      "details": "Free plan includes unlimited fast completions and monthly prompt quotas; Pro tier starts at $10/mo for enhanced Cascade usage.",
+      "lastVerifiedAt": "2026-10-28"
+    },
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "isOpenSource": false,
+    "isFeatured": false,
+    "status": "published",
+    "lastVerifiedAt": "2026-10-28",
+    "createdAt": "2026-10-28",
+    "updatedAt": "2026-10-28"
+  },
+  {
     "id": "zapier-central",
     "name": "Zapier Central",
     "slug": "zapier-central",

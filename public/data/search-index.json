@@ -1362,6 +1362,38 @@
     "isFeatured": true
   },
   {
+    "id": "windsurf",
+    "name": "Windsurf",
+    "slug": "windsurf",
+    "shortDescription": "AI-first agentic IDE developed by Codeium with deep codebase context, Cascade agent, and multi-file editing capabilities.",
+    "categories": [
+      "coding-development",
+      "agents-workflows"
+    ],
+    "tags": [
+      "coding",
+      "ide",
+      "agent",
+      "autocomplete",
+      "developer-tools",
+      "vscode"
+    ],
+    "features": [
+      "Cascade AI agent for deep multi-file codebase understanding and execution",
+      "AI Flows for seamless transition between autonomous AI edits and human guidance",
+      "Integrated terminal execution for automated command execution and debugging",
+      "Real-time intelligent code completion and context indexing across local repositories"
+    ],
+    "pricingModel": "freemium",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "isOpenSource": false,
+    "isFeatured": false
+  },
+  {
     "id": "zapier-central",
     "name": "Zapier Central",
     "slug": "zapier-central",

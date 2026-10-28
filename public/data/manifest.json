@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
-  "datasetVersion": "2026.10.21-f5bc9a50",
-  "generatedAt": "2026-10-21T17:23:13.635853+00:00",
-  "totalTools": 44,
+  "datasetVersion": "2026.10.28-0d6c2c4b",
+  "generatedAt": "2026-10-28T17:17:55.927433+00:00",
+  "totalTools": 45,
   "totalCategories": 20,
   "totalCollections": 6,
   "minAppVersion": "1.0.0",
@@ -19,8 +19,8 @@
     },
     "search-index.json": {
       "path": "/data/search-index.json",
-      "sha256": "365393abbd731564dc8de3fca48d7dbf78a78229a016023ebe85f8fc29a3f633",
-      "bytes": 39663
+      "sha256": "00aa636e2d0f5e5c677dfc26b76e11bdb5c664226887f901eaf33614b6e3c784",
+      "bytes": 40628
     },
     "tags.json": {
       "path": "/data/tags.json",
@@ -129,8 +129,8 @@
     },
     "tools/index.json": {
       "path": "/data/tools/index.json",
-      "sha256": "7ca3a0542f0f6bcac98430c7c5e9bde2e3d9bcf266162ff1295437e74da5e97c",
-      "bytes": 45462
+      "sha256": "250a31844edd7c26860a5088347bb8e2b72013188ff597a3b55b98c00ef42e75",
+      "bytes": 46509
     },
     "tools/intercom-fin.json": {
       "path": "/data/tools/intercom-fin.json",
@@ -247,6 +247,11 @@
       "sha256": "ed6779feef6873fadcb8bff7de32c193259c0bde51f7a6a924b8681993964833",
       "bytes": 2564
     },
+    "tools/windsurf.json": {
+      "path": "/data/tools/windsurf.json",
+      "sha256": "318bd79dfd43d859fbd88f26decc4d6eb056a2e7c00278230d13b4a2f2d2a5c0",
+      "bytes": 2631
+    },
     "tools/zapier-central.json": {
       "path": "/data/tools/zapier-central.json",
       "sha256": "c6a9448ca3954f82a7a52341f93e9a998bff6a8a1b8e9bf3fc7c98b155f470ca",
@@ -254,8 +259,8 @@
     },
     "tools/by-category/agents-workflows.json": {
       "path": "/data/tools/by-category/agents-workflows.json",
-      "sha256": "a17a265daa5f7ef758101332db87daa0b974dc0f07aff020265559fdabc2e3b5",
-      "bytes": 230
+      "sha256": "6bde66124dcfd0a73ae5bb96c8a6176fc6eb3a78138481d0039578c3a49c6e2d",
+      "bytes": 246
     },
     "tools/by-category/audio-music.json": {
       "path": "/data/tools/by-category/audio-music.json",
@@ -274,8 +279,8 @@
     },
     "tools/by-category/coding-development.json": {
       "path": "/data/tools/by-category/coding-development.json",
-      "sha256": "e08199f7719012937185bc749c955d1c954f0e51404f30308d3454ddf622d060",
-      "bytes": 322
+      "sha256": "1bd208db3f3ca04fcebbc68b8cb73b6945b5fda78b48f1ec377e9cd20163ea01",
+      "bytes": 338
     },
     "tools/by-category/customer-support.json": {
       "path": "/data/tools/by-category/customer-support.json",
