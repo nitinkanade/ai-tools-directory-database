@@ -16,7 +16,8 @@
     "ollama",
     "openhands",
     "v0",
-    "vllm"
+    "vllm",
+    "windsurf"
   ],
-  "count": 16
+  "count": 17
 }
