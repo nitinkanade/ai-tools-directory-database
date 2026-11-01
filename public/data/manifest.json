@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
-  "datasetVersion": "2026.10.28-0d6c2c4b",
-  "generatedAt": "2026-10-28T17:17:55.927433+00:00",
-  "totalTools": 45,
+  "datasetVersion": "2026.11.01-6a402edf",
+  "generatedAt": "2026-11-01T12:23:17.268871+00:00",
+  "totalTools": 46,
   "totalCategories": 20,
   "totalCollections": 6,
   "minAppVersion": "1.0.0",
@@ -19,13 +19,18 @@
     },
     "search-index.json": {
       "path": "/data/search-index.json",
-      "sha256": "00aa636e2d0f5e5c677dfc26b76e11bdb5c664226887f901eaf33614b6e3c784",
-      "bytes": 40628
+      "sha256": "44cb71656f8af17e9decb2ef5517ba5f623f5eef604b3ea38fb3766142e7894a",
+      "bytes": 41509
     },
     "tags.json": {
       "path": "/data/tags.json",
       "sha256": "8613d905b8339e1bcae84b5cf12ce1359f3f375ee3e2233533fa22cf6dd34f9d",
       "bytes": 1843
+    },
+    "tools/agent-qa.json": {
+      "path": "/data/tools/agent-qa.json",
+      "sha256": "c76687b8edacd5c5f5f1a85e7cf93112b380308cdcc261a50db7174051a07bab",
+      "bytes": 2669
     },
     "tools/bolt-new.json": {
       "path": "/data/tools/bolt-new.json",
@@ -129,8 +134,8 @@
     },
     "tools/index.json": {
       "path": "/data/tools/index.json",
-      "sha256": "250a31844edd7c26860a5088347bb8e2b72013188ff597a3b55b98c00ef42e75",
-      "bytes": 46509
+      "sha256": "3b26a32a72efeef56ef914de114e8e993d8c5a1c1c6ff191186cd924709de77b",
+      "bytes": 47592
     },
     "tools/intercom-fin.json": {
       "path": "/data/tools/intercom-fin.json",
@@ -259,8 +264,8 @@
     },
     "tools/by-category/agents-workflows.json": {
       "path": "/data/tools/by-category/agents-workflows.json",
-      "sha256": "6bde66124dcfd0a73ae5bb96c8a6176fc6eb3a78138481d0039578c3a49c6e2d",
-      "bytes": 246
+      "sha256": "7d0fd11c618b74803a7a9f0c2053c61ca26e3e571560ff04fdd2cf18c40610f8",
+      "bytes": 262
     },
     "tools/by-category/audio-music.json": {
       "path": "/data/tools/by-category/audio-music.json",
@@ -279,8 +284,8 @@
     },
     "tools/by-category/coding-development.json": {
       "path": "/data/tools/by-category/coding-development.json",
-      "sha256": "1bd208db3f3ca04fcebbc68b8cb73b6945b5fda78b48f1ec377e9cd20163ea01",
-      "bytes": 338
+      "sha256": "9130f3d8baf2e0095f91539fcff831344b66d347963a28aceec311f94f7f685c",
+      "bytes": 354
     },
     "tools/by-category/customer-support.json": {
       "path": "/data/tools/by-category/customer-support.json",

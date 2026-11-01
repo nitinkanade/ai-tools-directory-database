@@ -1,5 +1,37 @@
 [
   {
+    "id": "agent-qa",
+    "name": "agent-qa",
+    "slug": "agent-qa",
+    "shortDescription": "Natural-language web and mobile QA from vostride, with a memory engine, self-improvement, and evidence from test runs.",
+    "categories": [
+      "coding-development",
+      "agents-workflows"
+    ],
+    "tags": [
+      "agent",
+      "automation",
+      "cli",
+      "debugging",
+      "developer-tools",
+      "evidence",
+      "self-hosted",
+      "workflow"
+    ],
+    "features": [
+      "Natural-language QA for web, Android, and iOS user journeys",
+      "Persistent memory and self-improvement from validated test lessons",
+      "CLI, local web dashboard, and local stdio MCP integration",
+      "Retained test evidence for reviewing results"
+    ],
+    "pricingModel": "free",
+    "platforms": [
+      "web"
+    ],
+    "isOpenSource": false,
+    "isFeatured": false
+  },
+  {
     "id": "bolt-new",
     "name": "Bolt.new",
     "slug": "bolt-new",

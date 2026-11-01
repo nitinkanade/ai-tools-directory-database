@@ -1,6 +1,7 @@
 {
   "categoryId": "agents-workflows",
   "toolIds": [
+    "agent-qa",
     "claude-code",
     "crewai",
     "cursor",
@@ -13,5 +14,5 @@
     "windsurf",
     "zapier-central"
   ],
-  "count": 11
+  "count": 12
 }
