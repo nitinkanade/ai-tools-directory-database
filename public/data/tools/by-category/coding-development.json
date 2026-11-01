@@ -1,6 +1,7 @@
 {
   "categoryId": "coding-development",
   "toolIds": [
+    "agent-qa",
     "bolt-new",
     "chatgpt",
     "claude-code",
@@ -19,5 +20,5 @@
     "vllm",
     "windsurf"
   ],
-  "count": 17
+  "count": 18
 }

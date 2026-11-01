@@ -1,5 +1,44 @@
 [
   {
+    "id": "agent-qa",
+    "name": "agent-qa",
+    "slug": "agent-qa",
+    "shortDescription": "Natural-language web and mobile QA from vostride, with a memory engine, self-improvement, and evidence from test runs.",
+    "categories": [
+      "coding-development",
+      "agents-workflows"
+    ],
+    "subcategories": [
+      "debugging-testing",
+      "terminal-agents"
+    ],
+    "tags": [
+      "agent",
+      "automation",
+      "cli",
+      "debugging",
+      "developer-tools",
+      "evidence",
+      "self-hosted",
+      "workflow"
+    ],
+    "websiteUrl": "https://vostride.com",
+    "pricing": {
+      "model": "free",
+      "details": "Software use is free for purposes permitted by FSL-1.1-ALv2. Competing commercial use is restricted. Model-provider usage and device infrastructure costs are separate.",
+      "lastVerifiedAt": "2026-11-01"
+    },
+    "platforms": [
+      "web"
+    ],
+    "isOpenSource": false,
+    "isFeatured": false,
+    "status": "published",
+    "lastVerifiedAt": "2026-11-01",
+    "createdAt": "2026-11-01",
+    "updatedAt": "2026-11-01"
+  },
+  {
     "id": "bolt-new",
     "name": "Bolt.new",
     "slug": "bolt-new",
