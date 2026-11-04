@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
-  "datasetVersion": "2026.11.01-6a402edf",
-  "generatedAt": "2026-11-01T12:23:17.268871+00:00",
-  "totalTools": 46,
+  "datasetVersion": "2026.11.04-ea31fb6a",
+  "generatedAt": "2026-11-04T17:35:14.316747+00:00",
+  "totalTools": 47,
   "totalCategories": 20,
   "totalCollections": 6,
   "minAppVersion": "1.0.0",
@@ -19,13 +19,13 @@
     },
     "search-index.json": {
       "path": "/data/search-index.json",
-      "sha256": "44cb71656f8af17e9decb2ef5517ba5f623f5eef604b3ea38fb3766142e7894a",
-      "bytes": 41509
+      "sha256": "319e11c9ff3986d7389d8dd72f9aef2042d28c551a49a934b616a18409825f19",
+      "bytes": 42690
     },
     "tags.json": {
       "path": "/data/tags.json",
-      "sha256": "8613d905b8339e1bcae84b5cf12ce1359f3f375ee3e2233533fa22cf6dd34f9d",
-      "bytes": 1843
+      "sha256": "393fad9f1e5c5360f8a5b49954e14248b2eb6f1378ece9683965ab71cc703969",
+      "bytes": 1862
     },
     "tools/agent-qa.json": {
       "path": "/data/tools/agent-qa.json",
@@ -107,6 +107,11 @@
       "sha256": "280f51e429bf84c2396bff9e9d278b8ee8d4ab6cbb38bab45e682911c9b4819a",
       "bytes": 2524
     },
+    "tools/elevenreader.json": {
+      "path": "/data/tools/elevenreader.json",
+      "sha256": "bc109df7939968c9873f0e1f517ab0fc6514e58ed23bbad68f02f68829460e4d",
+      "bytes": 3194
+    },
     "tools/elicit.json": {
       "path": "/data/tools/elicit.json",
       "sha256": "68fd929a7bb565ce49b0d5984536c24ab39f880a8593279e564a75897391edb9",
@@ -134,8 +139,8 @@
     },
     "tools/index.json": {
       "path": "/data/tools/index.json",
-      "sha256": "3b26a32a72efeef56ef914de114e8e993d8c5a1c1c6ff191186cd924709de77b",
-      "bytes": 47592
+      "sha256": "d110b81c00d4a61409f9cbb7c9babf898c6f2baa3eba9c470a1bec5a6490e5f6",
+      "bytes": 48761
     },
     "tools/intercom-fin.json": {
       "path": "/data/tools/intercom-fin.json",
@@ -269,8 +274,8 @@
     },
     "tools/by-category/audio-music.json": {
       "path": "/data/tools/by-category/audio-music.json",
-      "sha256": "7f7e7c9c531313a6ae647a075211b2668f2d6f018df1cfae62328d2ab575b463",
-      "bytes": 111
+      "sha256": "3fb7548fd7cc063e6e4c09b4f4a5a2c1439268cc73b704ae5b7196a43f3b50bd",
+      "bytes": 131
     },
     "tools/by-category/business-marketing.json": {
       "path": "/data/tools/by-category/business-marketing.json",
@@ -304,8 +309,8 @@
     },
     "tools/by-category/education-learning.json": {
       "path": "/data/tools/by-category/education-learning.json",
-      "sha256": "7fd4f8611cd2fc7e7c8acf579595267a8a152081147e5500381a11648f077b30",
-      "bytes": 142
+      "sha256": "f00f9d1eb84c41924fe5f0e4f51af89d8fbea575e485582c806ee94c0fdd80ff",
+      "bytes": 162
     },
     "tools/by-category/finance-accounting.json": {
       "path": "/data/tools/by-category/finance-accounting.json",
@@ -334,8 +339,8 @@
     },
     "tools/by-category/productivity-automation.json": {
       "path": "/data/tools/by-category/productivity-automation.json",
-      "sha256": "764115048677b7f4788e0e3bca6b07e2682e327b9995da338ba07794c7e7406c",
-      "bytes": 244
+      "sha256": "55ff9a3d6cc1356423e3d59ed2c455f1f9c022aa7f1394cf096713d847ddcbbf",
+      "bytes": 264
     },
     "tools/by-category/research-knowledge.json": {
       "path": "/data/tools/by-category/research-knowledge.json",

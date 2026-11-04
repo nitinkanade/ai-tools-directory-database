@@ -4,6 +4,7 @@
     "chatpdf",
     "deepl",
     "elevenlabs",
+    "elevenreader",
     "github-copilot",
     "julius-ai",
     "make",
@@ -12,5 +13,5 @@
     "perplexity",
     "zapier-central"
   ],
-  "count": 10
+  "count": 11
 }

@@ -522,6 +522,42 @@
     "isFeatured": true
   },
   {
+    "id": "elevenreader",
+    "name": "ElevenReader",
+    "slug": "elevenreader",
+    "shortDescription": "AI-powered text-to-speech reader converting books, articles, PDFs, and ePubs into lifelike audio across 90+ languages.",
+    "categories": [
+      "audio-music",
+      "productivity-automation",
+      "education-learning"
+    ],
+    "tags": [
+      "accessibility",
+      "audio",
+      "documents",
+      "pdf",
+      "productivity",
+      "text-to-speech"
+    ],
+    "features": [
+      "Context-aware neural text-to-speech with natural cadence and emotion",
+      "1,000+ lifelike voices across 90+ languages including iconic narrator voices",
+      "Universal document support for PDFs, ePub, DOCX, TXT, and web URLs",
+      "Smart file imports that filter out headers, footers, page numbers, and filler text",
+      "Offline audio downloading and cross-device listening state synchronization",
+      "Custom narrator design and 0.5x to 4.0x variable playback speed controls"
+    ],
+    "pricingModel": "freemium",
+    "platforms": [
+      "web",
+      "ios",
+      "android",
+      "browser-extension"
+    ],
+    "isOpenSource": false,
+    "isFeatured": false
+  },
+  {
     "id": "elicit",
     "name": "Elicit",
     "slug": "elicit",

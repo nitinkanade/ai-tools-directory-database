@@ -2,8 +2,9 @@
   "categoryId": "audio-music",
   "toolIds": [
     "elevenlabs",
+    "elevenreader",
     "suno",
     "whisper"
   ],
-  "count": 3
+  "count": 4
 }

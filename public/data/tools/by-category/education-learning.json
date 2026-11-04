@@ -2,9 +2,10 @@
   "categoryId": "education-learning",
   "toolIds": [
     "consensus",
+    "elevenreader",
     "elicit",
     "khanmigo",
     "quizlet-q-chat"
   ],
-  "count": 4
+  "count": 5
 }
