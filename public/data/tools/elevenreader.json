@@ -1,0 +1,82 @@
+{
+  "id": "elevenreader",
+  "name": "ElevenReader",
+  "slug": "elevenreader",
+  "shortDescription": "AI-powered text-to-speech reader converting books, articles, PDFs, and ePubs into lifelike audio across 90+ languages.",
+  "description": "ElevenReader is an AI-driven listening application developed by ElevenLabs that converts uploaded PDFs, ePubs, web articles, newsletters, and documents into high-fidelity expressive audio. Powered by neural voice synthesis, ElevenReader features over 1,000 realistic voices, including an Iconic Voices collection, offline download capabilities, smart header and footer filtering, cross-device synchronization between web and mobile platforms, and an included catalog of over 200,000 audiobooks.",
+  "categories": [
+    "audio-music",
+    "productivity-automation",
+    "education-learning"
+  ],
+  "subcategories": [
+    "text-to-speech",
+    "smart-notes",
+    "study-tools"
+  ],
+  "tags": [
+    "accessibility",
+    "audio",
+    "documents",
+    "pdf",
+    "productivity",
+    "text-to-speech"
+  ],
+  "websiteUrl": "https://elevenreader.io",
+  "pricing": {
+    "model": "freemium",
+    "details": "Free plan includes 10 hours of text-to-audio per month; Ultra plan ($11/month or $99/year) offers unlimited personal listening, offline downloads, and 200k+ audiobooks.",
+    "lastVerifiedAt": "2026-11-04"
+  },
+  "platforms": [
+    "web",
+    "ios",
+    "android",
+    "browser-extension"
+  ],
+  "isOpenSource": false,
+  "sourceCodeUrl": null,
+  "isFeatured": false,
+  "status": "published",
+  "features": [
+    "Context-aware neural text-to-speech with natural cadence and emotion",
+    "1,000+ lifelike voices across 90+ languages including iconic narrator voices",
+    "Universal document support for PDFs, ePub, DOCX, TXT, and web URLs",
+    "Smart file imports that filter out headers, footers, page numbers, and filler text",
+    "Offline audio downloading and cross-device listening state synchronization",
+    "Custom narrator design and 0.5x to 4.0x variable playback speed controls"
+  ],
+  "useCases": [
+    "Listening to dense research papers, PDF manuscripts, and industry newsletters on the go",
+    "Accessible reading support for users with ADHD, dyslexia, or visual impairments",
+    "Proofreading personal drafts and novel dialogue by hearing spoken pacing aloud",
+    "Converting long-form ebooks and web novel archives into personal audiobooks"
+  ],
+  "alternatives": [
+    "elevenlabs"
+  ],
+  "relatedTools": [
+    "elevenlabs",
+    "chatpdf"
+  ],
+  "languageSupport": [
+    "multilingual",
+    "English"
+  ],
+  "accountRequired": true,
+  "limitations": [
+    "Free tier is capped at 10 hours of audio generation per month",
+    "Audio is designed for personal in-app listening and cannot be exported as raw files"
+  ],
+  "lastVerifiedAt": "2026-11-04",
+  "sourceReferences": [
+    "https://elevenreader.io",
+    "https://elevenreader.io/pricing"
+  ],
+  "createdAt": "2026-11-04",
+  "updatedAt": "2026-11-04",
+  "seo": {
+    "title": "ElevenReader — Overview, Features & Pricing",
+    "description": "Discover ElevenReader by ElevenLabs: turn books, PDFs, and articles into natural-sounding audio with 1,000+ realistic voices."
+  }
+}

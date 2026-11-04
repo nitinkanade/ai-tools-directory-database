@@ -634,6 +634,48 @@
     "updatedAt": "2026-10-15"
   },
   {
+    "id": "elevenreader",
+    "name": "ElevenReader",
+    "slug": "elevenreader",
+    "shortDescription": "AI-powered text-to-speech reader converting books, articles, PDFs, and ePubs into lifelike audio across 90+ languages.",
+    "categories": [
+      "audio-music",
+      "productivity-automation",
+      "education-learning"
+    ],
+    "subcategories": [
+      "text-to-speech",
+      "smart-notes",
+      "study-tools"
+    ],
+    "tags": [
+      "accessibility",
+      "audio",
+      "documents",
+      "pdf",
+      "productivity",
+      "text-to-speech"
+    ],
+    "websiteUrl": "https://elevenreader.io",
+    "pricing": {
+      "model": "freemium",
+      "details": "Free plan includes 10 hours of text-to-audio per month; Ultra plan ($11/month or $99/year) offers unlimited personal listening, offline downloads, and 200k+ audiobooks.",
+      "lastVerifiedAt": "2026-11-04"
+    },
+    "platforms": [
+      "web",
+      "ios",
+      "android",
+      "browser-extension"
+    ],
+    "isOpenSource": false,
+    "isFeatured": false,
+    "status": "published",
+    "lastVerifiedAt": "2026-11-04",
+    "createdAt": "2026-11-04",
+    "updatedAt": "2026-11-04"
+  },
+  {
     "id": "elicit",
     "name": "Elicit",
     "slug": "elicit",
