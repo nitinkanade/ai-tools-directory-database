@@ -3,6 +3,7 @@
   "toolIds": [
     "agent-qa",
     "claude-code",
+    "cline",
     "crewai",
     "cursor",
     "dify",
@@ -14,5 +15,5 @@
     "windsurf",
     "zapier-central"
   ],
-  "count": 12
+  "count": 13
 }

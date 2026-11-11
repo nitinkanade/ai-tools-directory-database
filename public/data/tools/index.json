@@ -284,6 +284,52 @@
     "updatedAt": "2026-10-15"
   },
   {
+    "id": "cline",
+    "name": "Cline",
+    "slug": "cline",
+    "shortDescription": "Autonomous open-source AI coding agent operating across IDEs, terminal CLI, and desktop with MCP tool support.",
+    "categories": [
+      "coding-development",
+      "agents-workflows"
+    ],
+    "subcategories": [
+      "code-assistants",
+      "terminal-agents",
+      "agent-frameworks"
+    ],
+    "tags": [
+      "agent",
+      "agents",
+      "autonomous",
+      "cli",
+      "coding",
+      "copilot",
+      "developer-tools",
+      "ide",
+      "open-source",
+      "terminal",
+      "vscode",
+      "workflow"
+    ],
+    "websiteUrl": "https://cline.bot",
+    "pricing": {
+      "model": "open-source",
+      "details": "Free and open source under Apache 2.0; users pay model providers directly on a usage basis via BYOK or inference credits; custom Enterprise tier available for organizations.",
+      "lastVerifiedAt": "2026-11-11"
+    },
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "isOpenSource": true,
+    "isFeatured": true,
+    "status": "published",
+    "lastVerifiedAt": "2026-11-11",
+    "createdAt": "2026-11-11",
+    "updatedAt": "2026-11-11"
+  },
+  {
     "id": "consensus",
     "name": "Consensus",
     "slug": "consensus",
