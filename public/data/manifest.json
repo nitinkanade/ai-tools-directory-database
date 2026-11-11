@@ -1,8 +1,8 @@
 {
   "schemaVersion": "1.0.0",
-  "datasetVersion": "2026.11.04-ea31fb6a",
-  "generatedAt": "2026-11-04T17:35:14.316747+00:00",
-  "totalTools": 47,
+  "datasetVersion": "2026.11.11-c38e179c",
+  "generatedAt": "2026-11-11T17:12:11.787062+00:00",
+  "totalTools": 48,
   "totalCategories": 20,
   "totalCollections": 6,
   "minAppVersion": "1.0.0",
@@ -19,8 +19,8 @@
     },
     "search-index.json": {
       "path": "/data/search-index.json",
-      "sha256": "319e11c9ff3986d7389d8dd72f9aef2042d28c551a49a934b616a18409825f19",
-      "bytes": 42690
+      "sha256": "9c6b66c027929dc4f02fc019d866c65ef6d918fb06f311a04b1eadb3b9f66b4b",
+      "bytes": 44059
     },
     "tags.json": {
       "path": "/data/tags.json",
@@ -61,6 +61,11 @@
       "path": "/data/tools/claude.json",
       "sha256": "dae244798cfc49f36efbb679ec7b838019a7e51a014c1b99fbdf136b3b5729b5",
       "bytes": 2675
+    },
+    "tools/cline.json": {
+      "path": "/data/tools/cline.json",
+      "sha256": "756e3df515c706b3d2ce7d1a61a48a6655b43c23dc1f99e68330122ddb90f045",
+      "bytes": 3674
     },
     "tools/consensus.json": {
       "path": "/data/tools/consensus.json",
@@ -139,8 +144,8 @@
     },
     "tools/index.json": {
       "path": "/data/tools/index.json",
-      "sha256": "d110b81c00d4a61409f9cbb7c9babf898c6f2baa3eba9c470a1bec5a6490e5f6",
-      "bytes": 48761
+      "sha256": "84b94012831fe8b6ceb5041f580bd1cdbcbde4e786c9da3dd869139999c5f21b",
+      "bytes": 49952
     },
     "tools/intercom-fin.json": {
       "path": "/data/tools/intercom-fin.json",
@@ -269,8 +274,8 @@
     },
     "tools/by-category/agents-workflows.json": {
       "path": "/data/tools/by-category/agents-workflows.json",
-      "sha256": "7d0fd11c618b74803a7a9f0c2053c61ca26e3e571560ff04fdd2cf18c40610f8",
-      "bytes": 262
+      "sha256": "1d5d28a7bba8860bfc38a4b289ccf6028f92a25af9ff2169675c3c3442f072b9",
+      "bytes": 275
     },
     "tools/by-category/audio-music.json": {
       "path": "/data/tools/by-category/audio-music.json",
@@ -289,8 +294,8 @@
     },
     "tools/by-category/coding-development.json": {
       "path": "/data/tools/by-category/coding-development.json",
-      "sha256": "9130f3d8baf2e0095f91539fcff831344b66d347963a28aceec311f94f7f685c",
-      "bytes": 354
+      "sha256": "9d6a8336511f648a989e3889fbedcbcbefb14c5ad0e7b5e4048711e4da6e792e",
+      "bytes": 367
     },
     "tools/by-category/customer-support.json": {
       "path": "/data/tools/by-category/customer-support.json",

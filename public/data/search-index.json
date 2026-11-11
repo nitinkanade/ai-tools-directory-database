@@ -234,6 +234,46 @@
     "isFeatured": true
   },
   {
+    "id": "cline",
+    "name": "Cline",
+    "slug": "cline",
+    "shortDescription": "Autonomous open-source AI coding agent operating across IDEs, terminal CLI, and desktop with MCP tool support.",
+    "categories": [
+      "coding-development",
+      "agents-workflows"
+    ],
+    "tags": [
+      "agent",
+      "agents",
+      "autonomous",
+      "cli",
+      "coding",
+      "copilot",
+      "developer-tools",
+      "ide",
+      "open-source",
+      "terminal",
+      "vscode",
+      "workflow"
+    ],
+    "features": [
+      "Dual Plan and Act modes with granular human-in-the-loop approval or configurable autonomous auto-approve",
+      "Multi-file coordinated code editing with compiler and linter error awareness and interactive visual diffs",
+      "Full terminal command execution with real-time background monitoring for dev servers and build scripts",
+      "Model Context Protocol (MCP) integration enabling custom tool creation, database queries, and API connections",
+      "Provider flexibility supporting Anthropic Claude, OpenAI, Google Gemini, OpenRouter, AWS Bedrock, and local models via Ollama",
+      "Multi-agent team coordination and cron-scheduled autonomous routines"
+    ],
+    "pricingModel": "open-source",
+    "platforms": [
+      "windows",
+      "macos",
+      "linux"
+    ],
+    "isOpenSource": true,
+    "isFeatured": true
+  },
+  {
     "id": "consensus",
     "name": "Consensus",
     "slug": "consensus",

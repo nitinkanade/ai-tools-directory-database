@@ -6,6 +6,7 @@
     "chatgpt",
     "claude-code",
     "claude",
+    "cline",
     "crewai",
     "cursor",
     "deepseek",
@@ -20,5 +21,5 @@
     "vllm",
     "windsurf"
   ],
-  "count": 18
+  "count": 19
 }

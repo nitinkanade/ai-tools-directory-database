@@ -1,0 +1,89 @@
+{
+  "id": "cline",
+  "name": "Cline",
+  "slug": "cline",
+  "shortDescription": "Autonomous open-source AI coding agent operating across IDEs, terminal CLI, and desktop with MCP tool support.",
+  "description": "Cline is an open-source autonomous coding agent designed to run directly within code editors (VS Code, JetBrains), the command-line interface, and standalone desktop environments. Featuring Plan and Act execution modes, Cline can inspect project file trees, execute terminal commands with real-time output observation, edit multiple files with interactive diff reviews, and connect to external developer tools and APIs via the Model Context Protocol (MCP). Cline allows developers to bring their own API keys across frontier providers or run local open-weight models via Ollama and LM Studio without subscription lock-in.",
+  "categories": [
+    "coding-development",
+    "agents-workflows"
+  ],
+  "subcategories": [
+    "code-assistants",
+    "terminal-agents",
+    "agent-frameworks"
+  ],
+  "tags": [
+    "agent",
+    "agents",
+    "autonomous",
+    "cli",
+    "coding",
+    "copilot",
+    "developer-tools",
+    "ide",
+    "open-source",
+    "terminal",
+    "vscode",
+    "workflow"
+  ],
+  "websiteUrl": "https://cline.bot",
+  "pricing": {
+    "model": "open-source",
+    "details": "Free and open source under Apache 2.0; users pay model providers directly on a usage basis via BYOK or inference credits; custom Enterprise tier available for organizations.",
+    "lastVerifiedAt": "2026-11-11"
+  },
+  "platforms": [
+    "windows",
+    "macos",
+    "linux"
+  ],
+  "isOpenSource": true,
+  "sourceCodeUrl": "https://github.com/cline/cline",
+  "isFeatured": true,
+  "status": "published",
+  "features": [
+    "Dual Plan and Act modes with granular human-in-the-loop approval or configurable autonomous auto-approve",
+    "Multi-file coordinated code editing with compiler and linter error awareness and interactive visual diffs",
+    "Full terminal command execution with real-time background monitoring for dev servers and build scripts",
+    "Model Context Protocol (MCP) integration enabling custom tool creation, database queries, and API connections",
+    "Provider flexibility supporting Anthropic Claude, OpenAI, Google Gemini, OpenRouter, AWS Bedrock, and local models via Ollama",
+    "Multi-agent team coordination and cron-scheduled autonomous routines"
+  ],
+  "useCases": [
+    "Autonomous bug fixing and refactoring across complex multi-file software repositories",
+    "Executing end-to-end development workflows including test generation, dependency management, and git commits",
+    "Automating scheduled codebase maintenance tasks such as dependency updates and pull request reviews"
+  ],
+  "alternatives": [
+    "claude-code",
+    "openhands",
+    "cursor",
+    "windsurf"
+  ],
+  "relatedTools": [
+    "claude-code",
+    "openhands",
+    "cursor"
+  ],
+  "languageSupport": [
+    "English"
+  ],
+  "accountRequired": false,
+  "limitations": [
+    "Requires high-tier frontier model API keys or capable local hardware for reliable agentic task completion",
+    "Complex multi-file refactoring requires user oversight to prevent context degradation on very large tasks"
+  ],
+  "lastVerifiedAt": "2026-11-11",
+  "sourceReferences": [
+    "https://cline.bot",
+    "https://cline.bot/pricing",
+    "https://github.com/cline/cline"
+  ],
+  "createdAt": "2026-11-11",
+  "updatedAt": "2026-11-11",
+  "seo": {
+    "title": "Cline — Open-Source Autonomous AI Coding Agent",
+    "description": "Explore Cline, the open-source autonomous AI coding assistant for VS Code, terminal, and desktop with Model Context Protocol (MCP) and multi-model support."
+  }
+}
